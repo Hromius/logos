@@ -1,8 +1,10 @@
 new Swiper  ('.swiper', {
 pagination:{
 el:'.swiper-pagination',
-clickable:true
-}
+clickable:true,
+},
+slidesPerView: "auto",
+spaceBetween: 20,
 });
 
 var button = document.querySelector('.width-more768__button');
